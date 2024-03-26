@@ -1,1 +1,4 @@
-Esse pequeno projeto emula uma calculadora simples com a função porcentagem, no programa inicial irá pergunta se será calculo de porcentagem, caso não for será feita calculos de +, -, * e /.
+Projeto de calculadora simples com operadores de adição, subtração, divisão, multiplicação e 
+porcentagem.
+    * No início do programa ele irá perguntar se a operação será feita com porcentagem;
+    * Caso seja selecionado operação simples o usuário poderá realizar contas até desejar encerrar;
