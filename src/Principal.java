@@ -1,11 +1,13 @@
 import java.util.Scanner;
 
+
 public class Principal {
- 
+    
+
     public static void main(String[] args) {
         Scanner dados = new Scanner(System.in); 
-        int continuar1, continuar2, calculo3 = 0, calculo4 = 0, resultadoInteiro = 0, resultadoParcial = 0, resultadoFinal = 0;
-        double porcentagem = 0, resultadoPorcentagem = 0, calculo1, calculo2;
+        int continuar1, continuar2, calculo3 = 0, calculo4 = 0, resultadoInteiro = 0;
+        double porcentagem = 0, resultadoPorcentagem = 0, calculo1, calculo2, resultadoParcial = 0, resultadoFinal = 0;
         String operador;
 
         System.out.println();
@@ -37,7 +39,7 @@ public class Principal {
             }else if(operador.equals("*")){
                 resultadoFinal = calculo3 * calculo4; 
             }else if(operador.equals("/")){
-                resultadoFinal = calculo3 / calculo4;
+                resultadoFinal = (double) calculo3 / calculo4;
             }    
         
             System.out.println("Resultado Final: "+ resultadoFinal);
